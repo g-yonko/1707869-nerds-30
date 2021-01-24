@@ -1,7 +1,7 @@
 # Личный проект «Нёрдс»
 
 * Студент: [Nikita Gudakov](https://up.htmlacademy.ru/htmlcss/30/user/1707869).
-* Наставник: `Неизвестно`.
+* Наставник: [Максим Боровик](https://htmlacademy.ru/profile/id1025673)
 
 ---
 
