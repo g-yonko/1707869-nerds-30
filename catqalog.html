@@ -28,14 +28,155 @@
       <h1>Магазин готовых шаблонов</h1>
       <section>
 
-      </section>
-      
-      <div>
-         <form action="">
-
-
-         </form>
-      </div>      
+      </section >
+      <div class="div-filter">
+        <section class="filter">
+           <h2>Фильтр шаблонов</h2>
+          <p><b>стоимость:</b></p>
+          <form action="">
+             <p><label for="price"><input type="range" min="0" max="15000" id="price" value="10000"></label></p>
+             <label for="from">от</label>
+             <input type="text" name="from" id="from" value="0">
+             <label for="before">до</label>
+                <input type="text" name="from" id="before" value="15000">
+             <div class="grid-filter">
+                 <p><b>сетка:</b></p>
+              <p>      
+               <label for="adaptive">Адаптивная</label>
+               <input type="radio" name="grid-form"  value="adaptive" id="adaptive" checked>
+              </p>
+              <p>
+                 <label for="fix">Фиксированая</label>
+                <input type="radio" name="grid-form" value="fixed" id="fix">
+              </p>
+              <p>
+                 <label for="rub">Резиновая</label>
+                 <input type="radio" name="grid-form" value="rubber" id="rubb">
+              </p>
+             </div>
+             <div class="properties-filter">
+              <p><b>Особенности</b></p>
+              <p>
+                 <label for="slider-form">Слайдер</label>
+                 <input type="checkbox" name="properties-form" value="slider" id="slider-form" checked>
+              </p>
+             <p>
+                <label for="advantages-form">Блок преимуществ</label>
+                <input type="checkbox" name="properties-form" value="advantages-block" id="advantages-form" >
+             </p>
+             <p>
+                <label for="news-form">Новости</label>
+                <input type="checkbox" name="properties-form" value="news" id="slider-form" checked>
+             </p>
+             <p>
+                <label for="galaery-form">Галерея</label>
+                <input type="checkbox" name="properties-form" value="galaery" id="slider-form" >
+             </p>
+             <p>
+                <label for="basket-form">Корзина</label>
+                <input type="checkbox" name="properties-form" value="basket" id="basket-form" >
+             </p>
+             <a type="button" class="button-properties-filter" title="show-button" href="#">Показать</a>
+          </form>
+        </section> 
+      </div>
+      <div class=catalog-layout>
+       <section>
+          <h2>Каталог готовых шаблонов</h2>
+          <p><b>сортировать:</b></p>
+          <div class=filter-layout>
+             <ul>
+                <li>
+                   <a href="#" class="checked-filter">по цене</a>
+                   <a href="#">по типу</a>
+                   <a href="#">по названию</a>
+                </li>
+             </ul>
+          </div>
+          <div class="up-down">
+             <a href="#" class="down">down</a>
+             <a href="#" class="up">up</a>
+          </div>
+         <div class="layout-list">
+            <ul class="layouts">
+               <li>
+                  <div class="browser">
+                     <a href="#" class="sedona">
+                        <img src="https://via.placeholder.com/358x578" width=358 heigh=578 alt="sedona">
+                     </a>
+                     <div class="discription-sedona">
+                        <h3>sedona</h3>
+                        <p>Информационный сайт<br>для туристов</p>
+                        <a type="button" class="sedona-button" title="sedona-button" href="#">9900 ₽</a>
+                     </div>
+                  </div>
+               </li>
+               <li>
+                  <div class="browser">
+                     <a href="#" class="pink">
+                        <img src="https://via.placeholder.com/358x578" width=358 heigh=578 alt="pink">
+                     </a>
+                     <div class="discription-pink">
+                        <h3>pink</h3>
+                        <p>Приложение для вашего<br>ios/android/windows устройства</p>
+                        <a type="button" class="pink-button" title="pink-button" href="#">9900 ₽</a>
+                     </div>
+                  </div>
+               </li>
+               <li>
+                  <div class="browser">
+                     <a href="#" class="borodinski">
+                        <img src="https://via.placeholder.com/358x578" width=358 heigh=578 alt="borodinski">
+                     </a>
+                     <div class="discription-borodinski">
+                        <h3>sedona</h3>
+                        <p>Федарльная<br>сеть барбершопов</p>
+                        <a type="button" class="borodinski-button" title="borodinski-button" href="#">9900 ₽</a>
+                     </div>
+                  </div>
+               </li>
+               <li>
+                  <div class="browser">
+                     <a href="#" class="mishka">
+                        <img src="https://via.placeholder.com/358x578" width=358 heigh=578 alt="mishka">
+                     </a>
+                     <div class="discription-mishka">
+                        <h3>mishka</h3>
+                        <p>Декоративные акссеуары<br>для вашего дома</p>
+                        <a type="button" class="mishka-button" title="mishka-button" href="#">9900 ₽</a>
+                     </div>
+                  </div>
+               </li>
+               <li>
+                  <div class="browser">
+                     <a href="#" class="A+">
+                        <img src="https://via.placeholder.com/358x578" width=358 heigh=578 alt="A+">
+                     </a>
+                     <div class="discription-A+">
+                        <h3>A+</h3>
+                        <p>Платформа для<br>онлайн обучения</p>
+                        <a type="button" class="A+button" title="A+button" href="#">9900 ₽</a>
+                     </div>
+                  </div>
+               </li>
+            </ul>
+         </div class="button-pages">
+         <ul>
+            <li>
+               <a type="button" class="layout-pages" title="page1" href="#" chaecked>1</a>
+            </li>
+            <li>
+               <a type="button" class="layout-pages" title="page2" href="#">2</a>
+            </li>
+            <li>
+               <a type="button" class="layout-pages" title="page3" href="#">3</a>
+            </li>
+            <li>
+               <a type="button" class="layout-pages" title="next-page" href="#">следующая</a>
+            </li>
+         </ul>
+       </section>
+      </div>
    </main>
 
 
