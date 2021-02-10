@@ -10,7 +10,7 @@
 
    <header class="main header">
       <a href="index.html" title="page_main">
-         <img src="https://via.placeholder.com/160x65" alt="main_logo">
+         <img src="https://via.placeholder.com/160x65" width="160" height="65" alt="main_logo">
       </a>
       <nav>
          <ul>
@@ -26,14 +26,11 @@
 
    <main>
       <h1>Магазин готовых шаблонов</h1>
-      <section>
-
-      </section >
       <div class="div-filter">
         <section class="filter">
            <h2>Фильтр шаблонов</h2>
           <p><b>стоимость:</b></p>
-          <form action="">
+          <form method="get" action="blank.html">
              <p><label for="price"><input type="range" min="0" max="15000" id="price" value="10000"></label></p>
              <label for="from">от</label>
              <input type="text" name="from" id="from" value="0">
@@ -50,7 +47,7 @@
                 <input type="radio" name="grid-form" value="fixed" id="fix">
               </p>
               <p>
-                 <label for="rub">Резиновая</label>
+                 <label for="rubb">Резиновая</label>
                  <input type="radio" name="grid-form" value="rubber" id="rubb">
               </p>
              </div>
@@ -66,17 +63,18 @@
              </p>
              <p>
                 <label for="news-form">Новости</label>
-                <input type="checkbox" name="properties-form" value="news" id="slider-form" checked>
+                <input type="checkbox" name="properties-form" value="news" id="news-form" checked>
              </p>
              <p>
                 <label for="galaery-form">Галерея</label>
-                <input type="checkbox" name="properties-form" value="galaery" id="slider-form" >
+                <input type="checkbox" name="properties-form" value="galaery" id="galaery-form" >
              </p>
              <p>
                 <label for="basket-form">Корзина</label>
                 <input type="checkbox" name="properties-form" value="basket" id="basket-form" >
              </p>
-             <a type="button" class="button-properties-filter" title="show-button" href="#">Показать</a>
+             </div>
+             <a class="button-properties-filter" title="show-button" href="#">Показать</a>
           </form>
         </section> 
       </div>
@@ -102,79 +100,81 @@
                <li>
                   <div class="browser">
                      <a href="#" class="sedona">
-                        <img src="https://via.placeholder.com/358x578" width=358 heigh=578 alt="sedona">
+                        <img src="https://via.placeholder.com/358x578" width=358 height=578 alt="sedona">
                      </a>
                      <div class="discription-sedona">
                         <h3>sedona</h3>
                         <p>Информационный сайт<br>для туристов</p>
-                        <a type="button" class="sedona-button" title="sedona-button" href="#">9900 ₽</a>
+                        <a class="sedona-button" title="sedona-button" href="#">9900 ₽</a>
                      </div>
                   </div>
                </li>
                <li>
                   <div class="browser">
                      <a href="#" class="pink">
-                        <img src="https://via.placeholder.com/358x578" width=358 heigh=578 alt="pink">
+                        <img src="https://via.placeholder.com/358x578" width=358 height=578 alt="pink">
                      </a>
                      <div class="discription-pink">
                         <h3>pink</h3>
                         <p>Приложение для вашего<br>ios/android/windows устройства</p>
-                        <a type="button" class="pink-button" title="pink-button" href="#">9900 ₽</a>
+                        <a class="pink-button" title="pink-button" href="#">9900 ₽</a>
                      </div>
                   </div>
                </li>
                <li>
                   <div class="browser">
                      <a href="#" class="borodinski">
-                        <img src="https://via.placeholder.com/358x578" width=358 heigh=578 alt="borodinski">
+                        <img src="https://via.placeholder.com/358x578" width=358 height=578 alt="borodinski">
                      </a>
                      <div class="discription-borodinski">
                         <h3>sedona</h3>
                         <p>Федарльная<br>сеть барбершопов</p>
-                        <a type="button" class="borodinski-button" title="borodinski-button" href="#">9900 ₽</a>
+                        <a class="borodinski-button" title="borodinski-button" href="#">9900 ₽</a>
                      </div>
                   </div>
                </li>
                <li>
                   <div class="browser">
                      <a href="#" class="mishka">
-                        <img src="https://via.placeholder.com/358x578" width=358 heigh=578 alt="mishka">
+                        <img src="https://via.placeholder.com/358x578" width=358 height=578 alt="mishka">
                      </a>
                      <div class="discription-mishka">
                         <h3>mishka</h3>
                         <p>Декоративные акссеуары<br>для вашего дома</p>
-                        <a type="button" class="mishka-button" title="mishka-button" href="#">9900 ₽</a>
+                        <a class="mishka-button" title="mishka-button" href="#">9900 ₽</a>
                      </div>
                   </div>
                </li>
                <li>
                   <div class="browser">
                      <a href="#" class="A+">
-                        <img src="https://via.placeholder.com/358x578" width=358 heigh=578 alt="A+">
+                        <img src="https://via.placeholder.com/358x578" width=358 height=578 alt="A+">
                      </a>
                      <div class="discription-A+">
                         <h3>A+</h3>
                         <p>Платформа для<br>онлайн обучения</p>
-                        <a type="button" class="A+button" title="A+button" href="#">9900 ₽</a>
+                        <a class="A+button" title="A+button" href="#">9900 ₽</a>
                      </div>
                   </div>
                </li>
             </ul>
-         </div class="button-pages">
-         <ul>
-            <li>
-               <a type="button" class="layout-pages" title="page1" href="#" chaecked>1</a>
-            </li>
-            <li>
-               <a type="button" class="layout-pages" title="page2" href="#">2</a>
-            </li>
-            <li>
-               <a type="button" class="layout-pages" title="page3" href="#">3</a>
-            </li>
-            <li>
-               <a type="button" class="layout-pages" title="next-page" href="#">следующая</a>
-            </li>
-         </ul>
+         </div>
+         <div class="button-pages">
+          <ul>
+             <li>
+                <a class="layout-pages" title="page1" href="#">1</a>
+             </li>
+             <li>
+                <a class="layout-pages" title="page2" href="#">2</a>
+             </li>
+             <li>
+                <a class="layout-pages" title="page3" href="#">3</a>
+             </li>
+             <li>
+                <a class="layout-pages" title="next-page" href="#">следующая</a>
+             </li>
+          </ul>
+         </div>
        </section>
       </div>
    </main>
@@ -192,17 +192,17 @@
          <ul>
             <li>
                <a href="#" class="footer-vk">
-                  <img src="https://via.placeholder.com/81x81" alt="VK">
+                  <img src="https://via.placeholder.com/81x81" width="81" height="81" alt="VK">
                </a>
             </li>
             <li>
                <a href="#" class="footer-fb">
-                  <img src="https://via.placeholder.com/81x81" alt="FB">
+                  <img src="https://via.placeholder.com/81x81" width="81" height="81" alt="FB">
                </a>
             </li>
             <li>
                <a href="#" class="footer-inst">
-                  <img src="https://via.placeholder.com/81x81" alt="INST">
+                  <img src="https://via.placeholder.com/81x81" width="81" height="81" alt="INST">
                </a>
             </li>
          </ul>
